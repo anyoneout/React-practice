@@ -1,11 +1,15 @@
-import React from "react";
-import { Alert } from "./Alert";
+import React, { useState } from "react";
+import Alert from "./Alert";
 
-export function Practice2() {
+
+export default function Practice2() {
+  const [countdown, setCountdown] = useState("5");
+
+
   return (
     <>
       <h1>Practice 2</h1>
-      <Alert />
+      <Alert countdown={countdown} />
     </>
   );
 }

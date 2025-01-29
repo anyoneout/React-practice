@@ -4,7 +4,7 @@ import Level2 from "./Views/Level2";
 import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router";
 import Practice1 from "./Views/Practice1";
 import Vimeo from "./Views/Vimeo";
-import { Practice2 } from "./Views/Practice2";
+import Practice2 from "./Views/Practice2";
 
 
 

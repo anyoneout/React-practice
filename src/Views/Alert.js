@@ -1,9 +1,10 @@
 import React from "react";
 
-export function Alert() {
+export default function Alert(props) {
+
   return (
     <>
-      <div className="alert">Alert</div>
+      <div className="alert">Alert: {props.countdown}</div>
     </>
   )
 }
